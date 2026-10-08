@@ -1,0 +1,44 @@
+name: Proponer un experimento
+description: Formular una pregunta técnica para que el autor decida si iniciar un estudio.
+title: "[Propuesta] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Una propuesta no inicia un experimento. El autor elige la pregunta y el alcance antes de crear un estudio numerado.
+  - type: textarea
+    id: question
+    attributes:
+      label: Pregunta y decisión
+      description: ¿Qué incertidumbre quieres resolver y qué decisión podría cambiar?
+    validations:
+      required: true
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: Hipótesis
+      description: Predicción y observación que la refutaría.
+    validations:
+      required: true
+  - type: textarea
+    id: comparison
+    attributes:
+      label: Baseline y variantes
+      description: Qué compararías y qué condiciones mantendrías iguales.
+    validations:
+      required: true
+  - type: textarea
+    id: evaluation
+    attributes:
+      label: Datos, métricas y límites
+      description: Procedencia de los datos, criterio de mejora, presupuesto y principales limitaciones.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Alcance mínimo
+      description: Qué necesitas para comprobar la hipótesis y qué queda fuera.
+    validations:
+      required: true

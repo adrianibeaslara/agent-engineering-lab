@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="title desc">
+  <title id="title">Agent Engineering Lab</title>
+  <desc id="desc">Laboratorio de preguntas, evidencia y decisiones. Estudiar, experimentar, medir y decidir.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101c2d"/><stop offset="1" stop-color="#172d3d"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M 32 0 L 0 0 0 32" fill="none" stroke="#d2e9ea" stroke-opacity=".055"/></pattern>
+  </defs>
+  <rect width="1280" height="340" rx="20" fill="url(#bg)"/>
+  <rect width="1280" height="340" rx="20" fill="url(#grid)"/>
+  <rect x="54" y="49" width="5" height="40" rx="2.5" fill="#b2ee83"/>
+  <text x="77" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="17" letter-spacing="3" fill="#b2ee83">PREGUNTAS · EVIDENCIA · DECISIONES</text>
+  <text x="54" y="153" font-family="Segoe UI, Arial, sans-serif" font-size="55" font-weight="700" fill="#f3f7fc">Agent Engineering Lab</text>
+  <text x="57" y="195" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#b9cad9">Estudiar. Experimentar. Medir. Decidir.</text>
+  <line x1="57" y1="234" x2="680" y2="234" stroke="#52677a" stroke-width="1"/>
+  <text x="57" y="276" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#d3dee8">Conocimiento destilado</text>
+  <circle cx="274" cy="270" r="3" fill="#b2ee83"/>
+  <text x="295" y="276" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#d3dee8">Experimentos reproducibles</text>
+  <g fill="none" stroke-width="2">
+    <path d="M930 108 L1108 108 L1108 245 L930 245 Z" stroke="#577888"/>
+    <path d="M930 108 L1019 62 L1108 108 M1019 62 L1196 157 L1108 245 M930 245 L1019 291 L1196 157 M930 108 L841 157 L930 245" stroke="#355568"/>
+    <path d="M930 108 L1019 176 L1108 108 M930 245 L1019 176 L1108 245" stroke="#b2ee83" stroke-opacity=".6"/>
+    <circle cx="1019" cy="176" r="20" fill="#1d3942" stroke="#b2ee83"/>
+    <circle cx="930" cy="108" r="7" fill="#b2ee83" stroke="#b2ee83"/>
+    <circle cx="1108" cy="108" r="7" fill="#b2ee83" stroke="#b2ee83"/>
+    <circle cx="930" cy="245" r="7" fill="#1d3942" stroke="#b2ee83"/>
+    <circle cx="1108" cy="245" r="7" fill="#1d3942" stroke="#b2ee83"/>
+  </g>
+</svg>
